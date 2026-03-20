@@ -37,3 +37,7 @@ This script will be responsible for running the `query.py` PySpark app on Hadoop
 
 ### start-services.sh
 This script will initiate the services required to run Hadoop components. This script is called in `app.sh` file.
+
+
+### store_index.sh
+This script will create Cassandra/ScyllaDB tables and load the index data from HDFS to them.
