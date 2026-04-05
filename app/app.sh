@@ -20,7 +20,7 @@ bash prepare_data.sh
 
 
 # Run the indexer
-bash index.sh
+bash index.sh /data
 
 # Run the ranker
 bash search.sh "this is a query!"
